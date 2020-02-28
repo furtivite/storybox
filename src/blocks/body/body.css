@@ -1,0 +1,12 @@
+@import url(../../vendor/fonts/fonts.css);
+@import url(__background/body__background.css);
+@import url(__header/body__header.css);
+@import url(__main/body__main.css);
+@import url(__footer/body__footer.css);
+
+.body {
+  background: #2F1C5C;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
