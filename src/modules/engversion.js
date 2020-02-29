@@ -4,6 +4,7 @@ const main = document.querySelector(".main");
 function engVersion () {
   engHeader ();
   engBeginning ();
+  engDetailed ();
 }
 
 function engHeader () {
@@ -35,6 +36,28 @@ function engHeader () {
 function engBeginning () {
   const beginningHeader = main.querySelector(".beginning__caption");
   beginningHeader.textContent = "UNBOX YOUR STORY";
+}
+
+function engDetailed () {
+  const detailedHeader = main.querySelector(".detailed__caption");
+  const detailedCaptionEffect = main.querySelector(".detailed__line-caption_effect");
+  const detailedParagraphEffect = main.querySelector(".detailed__paragraph_effect");
+  const detailedCaptionAttention = main.querySelector(".detailed__line-caption_attention");
+  const detailedParagraphAttention = main.querySelector(".detailed__paragraph_attention");
+  const detailedCaptionTelling = main.querySelector(".detailed__line-caption_telling");
+  const detailedParagraphTelling = main.querySelector(".detailed__paragraph_telling");
+  const detailedCaptionStory = main.querySelector(".detailed__line-caption_story");
+  const detailedParagraphStory = main.querySelector(".detailed__paragraph_story");
+
+  detailedHeader.textContent = "DETAILS";
+  detailedCaptionEffect.textContent = "Maximum Effect";
+  detailedParagraphEffect.textContent = "Information conveyed through an animated video reaches the viewer intact";
+  detailedCaptionAttention.textContent = "Today's Attention is Tomorrow's Client";
+  detailedParagraphAttention.textContent = "By catching the viewer's attention now you get a returning customer in the future";
+  detailedCaptionTelling.textContent = "Stop Selling, Start Telling";
+  detailedParagraphTelling.textContent = "Common sales techniques don't work! A client makes a purchase when he sees and understands the purpose of your product in his life";
+  detailedCaptionStory.textContent = "Every Brand Has a Story Worth Telling";
+  detailedParagraphStory.textContent = "Whatever your product is, with your help our writers will come up with a beautiful story and bring it to the viewer.";
 }
 
 export { engVersion };

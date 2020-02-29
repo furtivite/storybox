@@ -2,5 +2,9 @@
   width: 100%;
   max-width: 1920px;
   height: 100%;
+
+  padding-left: 144px;
+  padding-right: 144px;
+
   position: relative;
 }

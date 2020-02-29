@@ -1,0 +1,7 @@
+@import url(_rtl/detailed__line_rtl.css);
+
+.detailed__line {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

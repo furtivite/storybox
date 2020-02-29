@@ -2,3 +2,17 @@
 @import url(__line/detailed__line.css);
 @import url(__line-caption/detailed__line-caption.css);
 @import url(__paragraph/detailed__paragraph.css);
+
+.detailed {
+  width: 100%;
+  color: #F8E8FF;
+
+  padding-bottom: 164px;
+
+  background: url(../../img/detailed-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 38%;
+
+  font-family: 'Montserrat', sans-serif;
+}

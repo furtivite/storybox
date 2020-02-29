@@ -1,1 +1,10 @@
-@import url(_right/paragraph_right.css);
+.paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
