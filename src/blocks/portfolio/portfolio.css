@@ -1,6 +1,16 @@
 @import url(__caption/portfolio__caption.css);
 @import url(__swiper/portfolio__swiper.css);
+@import url(__swiper-wrapper/portfolio__swiper-wrapper.css);
 @import url(__swiper-slide/portfolio__swiper-slide.css);
 @import url(__swiper-button-prev/portfolio__swiper-button-prev.css);
 @import url(__swiper-button-next/portfolio__swiper-button-next.css);
 @import url(__swiper-button-hidden/portfolio__swiper-button-hidden.css);
+@import url(__swiper-pagination/portfolio__swiper-pagination.css);
+@import url(__grid/portfolio__grid.css);
+
+
+.portfolio {
+  width: 100%;
+  color: #F8E8FF;
+  padding-bottom: 58px;
+}

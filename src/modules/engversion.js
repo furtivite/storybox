@@ -5,6 +5,7 @@ function engVersion () {
   engHeader ();
   engBeginning ();
   engDetailed ();
+  engPortfolio ();
 }
 
 function engHeader () {
@@ -58,6 +59,11 @@ function engDetailed () {
   detailedParagraphTelling.textContent = "Common sales techniques don't work! A client makes a purchase when he sees and understands the purpose of your product in his life";
   detailedCaptionStory.textContent = "Every Brand Has a Story Worth Telling";
   detailedParagraphStory.textContent = "Whatever your product is, with your help our writers will come up with a beautiful story and bring it to the viewer";
+}
+
+function engPortfolio () {
+  const portfolioHeader = main.querySelector(".portfolio__caption");
+  portfolioHeader.textContent = "PORTFOLIO";
 }
 
 export { engVersion };

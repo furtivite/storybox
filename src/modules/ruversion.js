@@ -5,6 +5,7 @@ function ruVersion () {
   ruHeader ();
   ruBeginning ();
   ruDetailed ();
+  ruPortfolio ();
 }
 
 function ruHeader () {
@@ -58,6 +59,11 @@ function ruDetailed () {
   detailedParagraphTelling.textContent = "Методики продаж не работают! Клиент покупает, когда видит и понимает место вашего товара в своей жизни";
   detailedCaptionStory.textContent = "Достойная история есть у каждого бренда";
   detailedParagraphStory.textContent = "Каким бы ни был продукт, сценаристы вместе с вами откроют красивую историю, чтобы достойно донести её до зрителя";
+}
+
+function ruPortfolio () {
+  const portfolioHeader = main.querySelector(".portfolio__caption");
+  portfolioHeader.textContent = "ПОРТФОЛИО";
 }
 
 export { ruVersion };

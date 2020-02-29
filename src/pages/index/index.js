@@ -3,6 +3,10 @@ import './index.css';
 import {
   langchoiser
 } from '../../modules/langchoiser';
+/* свайпер */
+import {
+  slider
+} from '../../modules/slider';
 
 /* функция для проверки листенеров */
 function click () {
@@ -10,4 +14,4 @@ function click () {
 }
 
 langchoiser ();
-
+slider ();

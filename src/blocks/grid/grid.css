@@ -1,0 +1,13 @@
+@import url(__two-col-col/grid__two-col-col.css);
+@import url(__three-col-col/grid__three-col-col.css);
+@import url(__two-line-item/grid__two-line-item.css);
+@import url(__three-line-item/grid__three-line-item.css);
+
+.grid {
+  width: 70%;
+  height: 720px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
