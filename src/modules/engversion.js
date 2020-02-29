@@ -9,11 +9,11 @@ function engVersion () {
 
 function engHeader () {
   const headerNav = header.querySelector(".nav");
-  const headerNavSchema = headerNav.querySelector(".nav__list-item_schema");
-  const headerNavDetailed = headerNav.querySelector(".nav__list-item_detailed");
-  const headerNavContacts = headerNav.querySelector(".nav__list-item_contacts");
-  const headerNavCreate = headerNav.querySelector(".nav__list-item_create");
-  const headerNavPortfolio = headerNav.querySelector(".nav__list-item_portfolio");
+  const headerNavSchema = headerNav.querySelector(".nav__list-item-schema");
+  const headerNavDetailed = headerNav.querySelector(".nav__list-item-detailed");
+  const headerNavContacts = headerNav.querySelector(".nav__list-item-contacts");
+  const headerNavCreate = headerNav.querySelector(".nav__list-item-create");
+  const headerNavPortfolio = headerNav.querySelector(".nav__list-item-portfolio");
 
   const langplace = header.querySelector(".lang-place");
   const langplaceSelected = langplace.querySelector(".lang-place__selected");
@@ -57,7 +57,7 @@ function engDetailed () {
   detailedCaptionTelling.textContent = "Stop Selling, Start Telling";
   detailedParagraphTelling.textContent = "Common sales techniques don't work! A client makes a purchase when he sees and understands the purpose of your product in his life";
   detailedCaptionStory.textContent = "Every Brand Has a Story Worth Telling";
-  detailedParagraphStory.textContent = "Whatever your product is, with your help our writers will come up with a beautiful story and bring it to the viewer.";
+  detailedParagraphStory.textContent = "Whatever your product is, with your help our writers will come up with a beautiful story and bring it to the viewer";
 }
 
 export { engVersion };

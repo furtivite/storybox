@@ -9,11 +9,11 @@ function ruVersion () {
 
 function ruHeader () {
   const headerNav = header.querySelector(".nav");
-  const headerNavSchema = headerNav.querySelector(".nav__list-item_schema");
-  const headerNavDetailed = headerNav.querySelector(".nav__list-item_detailed");
-  const headerNavContacts = headerNav.querySelector(".nav__list-item_contacts");
-  const headerNavCreate = headerNav.querySelector(".nav__list-item_create");
-  const headerNavPortfolio = headerNav.querySelector(".nav__list-item_portfolio");
+  const headerNavSchema = headerNav.querySelector(".nav__list-item-schema");
+  const headerNavDetailed = headerNav.querySelector(".nav__list-item-detailed");
+  const headerNavContacts = headerNav.querySelector(".nav__list-item-contacts");
+  const headerNavCreate = headerNav.querySelector(".nav__list-item-create");
+  const headerNavPortfolio = headerNav.querySelector(".nav__list-item-portfolio");
 
   const langplace = header.querySelector(".lang-place");
   const langplaceSelected = langplace.querySelector(".lang-place__selected");
