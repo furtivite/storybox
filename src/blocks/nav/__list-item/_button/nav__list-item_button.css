@@ -1,0 +1,10 @@
+.nav__list-item_button {
+  padding: 4px 8px;
+  background: #CE1A7C;
+  border-radius: 25px;
+}
+
+.nav .nav__list-item_button:hover {
+  background: #F8E8FF;
+  color: #CE1A7C;
+}

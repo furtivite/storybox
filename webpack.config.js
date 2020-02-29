@@ -8,7 +8,8 @@ const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
   entry: {
-    index: './src/pages/index/index.js'
+    index: './src/pages/index/index.js',
+    alternate: './src/pages/alternate/alternate.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -58,6 +59,13 @@ module.exports = {
       template: './src/pages/index/index.html',
       chunks: ['index'],
       filename: 'index.html'
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      hash: true,
+      template: './src/pages/alternate/alternate.html',
+      chunks: ['alternate'],
+      filename: 'alternate.html'
     }),
     new WebpackMd5Hash(),
     new MiniCssExtractPlugin({

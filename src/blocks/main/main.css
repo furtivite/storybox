@@ -4,3 +4,8 @@
 @import url(__portfolio/main__portfolio.css);
 @import url(__scheme/main__scheme.css);
 @import url(__ready/main__ready.css);
+
+.main {
+  width: 100%;
+  padding-top: 127px;
+}

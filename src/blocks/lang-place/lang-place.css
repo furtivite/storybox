@@ -2,3 +2,10 @@
 @import url(__arow/lang-place__arow.css);
 @import url(__list/lang-place__list.css);
 @import url(__list-item/lang-place__list-item.css);
+@import url(_hidden/lang-place__hidden.css);
+
+.lang-place {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

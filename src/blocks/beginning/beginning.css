@@ -1,2 +1,12 @@
 @import url(__caption/beginning__caption.css);
 @import url(__video/beginning__video.css);
+
+.beginning {
+  width: 100%;
+  height: 1150px;
+  background: url(../../img/beginning-background.png);
+  background-position: center bottom;
+  background-position-x: 36%;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
