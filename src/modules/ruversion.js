@@ -24,14 +24,8 @@ function ruHeader () {
   headerNavContacts.textContent = "Контакты";
   headerNavCreate.textContent = "Создать видео";
   headerNavPortfolio.textContent = "Портфолио";
-  langplaceSelected.innerHTML = `RU&nbsp;
-  <picture>
-    <img
-      src="../img/arrow-down.png" alt="arrow-down"
-      srcset="../img/arrow-down@2x.png 2x, ../img/arrow-down.png 1x"
-      class="lang-place__arow">
-  </picture>
-  `;
+  langplaceSelected.innerHTML = `RU&nbsp;<img src="../img/arrow-down.png" alt="arrow-down" class="lang-place__arow">
+  </picture>`;
 }
 
 function ruBeginning () {

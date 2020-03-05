@@ -24,14 +24,8 @@ function engHeader () {
   headerNavContacts.textContent = "Contacts";
   headerNavCreate.textContent = "Create a Video";
   headerNavPortfolio.textContent = "Portfolio";
-  langplaceSelected.innerHTML = `ENG&nbsp;
-  <picture>
-    <img
-      src="../img/arrow-down.png" alt="arrow-down"
-      srcset="../img/arrow-down@2x.png 2x, ../img/arrow-down.png 1x"
-      class="lang-place__arow">
-  </picture>
-  `;
+  langplaceSelected.innerHTML = `ENG&nbsp;<img src="../img/arrow-down.png" alt="arrow-down" class="lang-place__arow">
+  </picture>`;
 }
 
 function engBeginning () {
