@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.en.css %>">
+  <title>StoryBox: Unbox your story</title>
+</head>
+<body class="body">
+  <header class="body__header header">
+    <div class="header__container container">
+      <a href="#" class="link header__logo-link">
+        <picture>
+          <img
+            src="<%=require('../../img/logo.png')%>" alt="Logo"
+            srcset="<%=require('../../img/logo@2x.png')%> 2x, <%=require('../../img/logo.png')%> 1x"
+            class="header__logo logo">
+        </picture>
+      </a>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="#schema" class="link nav__list-item-schema">How We Work</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#detailed" class="link nav__list-item-detailed">Details</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#footer" class="link nav__list-item-contacts">Contacts</a>
+          </li>
+          <li class="nav__list-item nav__list-item_button ">
+            <a href="#" class="link nav__list-item-create">Create a Video</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#portfolio" class="link nav__list-item-portfolio">Portfolio</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__lang-place lang-place">
+        <div class="lang-place__selected">
+          ENG&nbsp;
+          <picture>
+            <img
+              src="<%=require('../../img/arrow-down.png')%>" alt="arrow-down"
+              srcset="<%=require('../../img/arrow-down@2x.png')%> 2x, <%=require('../../img/arrow-down.png')%> 1x"
+              class="lang-place__arow">
+          </picture>
+        </div>
+        <ul class="lang-place__list lang-place_hidden">
+          <li class="lang-place__list-item lang-place__list-item_ru">
+            RU&nbsp;
+            <picture>
+              <img
+                src="<%=require('../../img/arrow-down.png')%>" alt="arrow-down"
+                srcset="<%=require('../../img/arrow-down@2x.png')%> 2x, <%=require('../../img/arrow-down.png')%> 1x"
+                class="lang-place__arow lang-place__arow_rotate">
+            </picture>
+          </li>
+          <li class="lang-place__list-item lang-place__list-item_en">
+            ENG
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="body__main main">
+    <div class="main__container container">
+      <section class="main__beginning beginning">
+        <h1 class="beginning__caption caption caption_h1">UNBOX YOUR STORY</h1>
+        <div class="beginning__video video video_beginning">
+          <picture>
+            <img
+              src="<%=require('../../img/play-btn.png')%>" alt="play button"
+              srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+              class="video__play video__play_beginning">
+          </picture>
+        </div>
+      </section>
+      <section class="main__detailed detailed" id="detailed">
+        <h2 class="detailed__caption caption caption_h2">
+          DETAILS
+        </h2>
+        <div class="detailed__line">
+          <h3 class="detailed__line-caption detailed__line-caption_effect caption caption_h3">
+            Maximum Effect
+          </h3>
+          <p class="detailed__paragraph detailed__paragraph_effect paragraph">
+            Information conveyed through an animated video reaches the viewer intact
+          </p>
+        </div>
+        <div class="detailed__line detailed__line_rtl">
+          <h3 class="detailed__line-caption detailed__line-caption_attention caption caption_h3">
+            Today's Attention is Tomorrow's Client
+          </h3>
+          <p class="detailed__paragraph detailed__paragraph_attention paragraph">
+            By catching the viewer's attention now you get a returning customer in the future
+          </p>
+        </div>
+        <div class="detailed__line">
+          <h3 class="detailed__line-caption detailed__line-caption_telling caption caption_h3">
+            Stop Selling, Start Telling
+          </h3>
+          <p class="detailed__paragraph detailed__paragraph_telling paragraph">
+            Common sales techniques don't work! A client makes a purchase when he sees and understands the purpose of your product in his life
+          </p>
+        </div>
+        <div class="detailed__line detailed__line_rtl">
+          <h3 class="detailed__line-caption detailed__line-caption_story caption caption_h3">
+            Every Brand Has a Story Worth Telling
+          </h3>
+          <p class="detailed__paragraph detailed__paragraph_story paragraph">
+            Whatever your product is, with your help our writers will come up with a beautiful story and bring it to the viewer.
+          </p>
+        </div>
+      </section>
+      <section class="main__portfolio portfolio" id="portfolio">
+        <h2 class="portfolio__caption caption caption_h2">
+          ПОРТФОЛИО
+        </h2>
+        <div class="portfolio__swiper swiper-container">
+          <div class="portfolio__swiper-wrapper swiper-wrapper">
+            <div class="portfolio__swiper-slide swiper-slide">
+              <div class="portfolio__grid grid">
+                <div class="video video_swiper_gold video_swiper">
+                  <picture>
+                    <img
+                      src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                      srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                      class="video__play video__play_beginning">
+                  </picture>
+                  <div class="video__title">
+                    <span class="video__project">Проект:</span>
+                    &nbsp;
+                    <span class="video__name">Название проекта</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__swiper-slide swiper-slide">
+              <div class="portfolio__grid grid">
+                <div class="grid__two-col-col">
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_CD55A0 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_9BD9E4 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__two-col-col">
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_2B328C video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_ED148C video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__swiper-slide swiper-slide">
+              <div class="portfolio__grid grid">
+                <div class="grid__three-col-col">
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_CD55A0 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_9BD9E4 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__three-col-col">
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_2B328C video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_ED148C video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__three-col-col">
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_4F2A80 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__swiper-slide swiper-slide">
+              <div class="portfolio__grid grid">
+                <div class="grid__three-col-col grid__three-col-col_37">
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_gold video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_CD55A0 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__three-col-col grid__three-col-col_26">
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_9BD9E4 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_2B328C video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_ED148C video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__three-col-col grid__three-col-col_37">
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_4F2A80 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_43BBC8 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__swiper-slide swiper-slide">
+              <div class="portfolio__grid grid">
+                <div class="grid__three-col-col grid__three-col-col_29">
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_gold video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_CD55A0 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_9BD9E4 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__three-col-col grid__three-col-col_42">
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper_2B328C video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__two-line-item">
+                    <div class="video video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__three-col-col grid__three-col-col_29">
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_ED148C video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_4F2A80 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_43BBC8 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__swiper-slide swiper-slide">
+              <div class="portfolio__grid grid">
+                <div class="grid__three-col-col">
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_gold video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_CD55A0 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__three-col-col">
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_9BD9E4 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_2B328C video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid__three-col-col">
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_ED148C video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_4F2A80 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__three-line-item">
+                    <div class="video video_swiper_43BBC8 video_swiper">
+                      <picture>
+                        <img
+                          src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                          srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                          class="video__play video__play_beginning">
+                      </picture>
+                      <div class="video__title">
+                        <span class="video__project">Проект:</span>
+                        &nbsp;
+                        <span class="video__name">Название проекта</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__swiper-button-next swiper-button-next"></div>
+          <div class="portfolio__swiper-button-prev swiper-button-prev"></div>
+          <div class="portfolio__swiper-pagination swiper-pagination"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="<%= htmlWebpackPlugin.files.chunks.en.entry %>"></script>
+</body>
+</html>

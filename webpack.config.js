@@ -9,6 +9,7 @@ const isDev = process.env.NODE_ENV === 'development';
 module.exports = {
   entry: {
     index: './src/pages/index/index.js',
+    en: './src/pages/en/en.js',
     alternate: './src/pages/alternate/alternate.js'
   },
   output: {
@@ -59,6 +60,13 @@ module.exports = {
       template: './src/pages/index/index.html',
       chunks: ['index'],
       filename: 'index.html'
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      hash: true,
+      template: './src/pages/en/en.html',
+      chunks: ['en'],
+      filename: 'en.html'
     }),
     new HtmlWebpackPlugin({
       inject: false,
