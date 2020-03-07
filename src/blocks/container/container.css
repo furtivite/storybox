@@ -1,5 +1,6 @@
 .container {
-  width: 100%;
+  /*width: 100%;*/
+  width: calc(100% - 288px);
   max-width: 1920px;
   height: 100%;
 
