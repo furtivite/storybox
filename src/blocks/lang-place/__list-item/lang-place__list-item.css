@@ -1,5 +1,5 @@
-@import url(_ru/lang-place__list-item_ru.css);
-@import url(_en/lang-place__list-item_en.css);
+@import url(_active/lang-place__list-item_active.css);
+@import url(_non-active/lang-place__list-item_non-active.css);
 
 .lang-place__list-item {
   display: flex;
