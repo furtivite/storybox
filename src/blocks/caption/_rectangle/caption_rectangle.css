@@ -1,0 +1,7 @@
+.caption_rectangle {
+  font-size: 60px;
+  text-align: center;
+  width: 55%;
+  background: rgb(47, 28, 92, 0.75);
+  border-radius: 20px;
+}

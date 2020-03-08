@@ -20,7 +20,7 @@
       <nav class="header__nav nav">
         <ul class="nav__list">
           <li class="nav__list-item">
-            <a href="#schema" class="link nav__list-item-schema">Схема работы</a>
+            <a href="#scheme" class="link nav__list-item-scheme">Схема работы</a>
           </li>
           <li class="nav__list-item">
             <a href="#details" class="link nav__list-item-details">Подробнее</a>
@@ -49,17 +49,19 @@
       </div>
     </div>
   </header>
-  <main class="body__main main">
+  <main class="body__main main main_ru">
     <div class="main__container container">
       <section class="main__beginning beginning">
         <h1 class="beginning__caption caption caption_h1">ОТКРОЙ СВОЮ ИСТОРИЮ</h1>
-        <div class="beginning__video video video_beginning">
-          <picture>
-            <img
-              src="<%=require('../../img/play-btn.png')%>" alt="play button"
-              srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
-              class="video__play video__play_beginning">
-          </picture>
+        <div class="beginning__video-block">
+          <div class="beginning__video video video_beginning">
+            <picture>
+              <img
+                src="<%=require('../../img/play-btn.png')%>" alt="play button"
+                srcset="<%=require('../../img/play-btn@2x.png')%> 2x, <%=require('../../img/play-btn.png')%> 1x"
+                class="video__play video__play_beginning">
+            </picture>
+          </div>
         </div>
       </section>
       <section class="main__details details" id="details">
@@ -684,6 +686,28 @@
           <div class="portfolio__swiper-button-next swiper-button-next"></div>
           <div class="portfolio__swiper-button-prev swiper-button-prev"></div>
           <div class="portfolio__swiper-pagination swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="main__scheme scheme" id="scheme">
+        <h2 class="scheme__caption caption caption_h2">
+          СХЕМА РАБОТЫ
+        </h2>
+      </section>
+      <section class="main__story story">
+        <h2 class="story__caption caption caption_h2 caption_rectangle">
+          ВЫ ГОТОВЫ СОЗДАТЬ СВОЮ ИСТОРИЮ?
+        </h2>
+        <div class="story__questionnaire">
+          <form action="" class="story__form">
+            <input type="text" name="name" class="story__input story__input_name" placeholder="ФИО" minlength="3" maxlength="30">
+            <input type="text" name="mail" class="story__input story__input_mail" placeholder="Email" minlength="3" maxlength="30">
+            <input type="text" name="link" class="story__input story__input_link" placeholder="Ссылка на компанию" minlength="3" maxlength="30">
+            <input type="text" name="duration" class="story__input story__input_duration" placeholder="Длительность ролика" minlength="3" maxlength="30">
+            <input type="text" name="more" class="story__input story__input_more" placeholder="Опишите подробнее" minlength="3">
+            <button class="story__button" type="submit">Отправить</button>
+            <span class="story__error">Ошибка</span>
+          </form>
+          <p class="story__agreement">Нажимая кнопку, вы даёте согласие на обработку <a href="#" class="link link_underline">персональных данных</a></p>
         </div>
       </section>
     </div>
