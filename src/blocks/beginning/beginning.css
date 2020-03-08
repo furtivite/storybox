@@ -3,10 +3,9 @@
 
 .beginning {
   width: 100%;
-  height: 1030px;
-  background: url(../../img/beginning-background.png);
+  padding-bottom: 670px;
+  background: url(../../img/beginning-background__2.png);
   background-position: center bottom;
-  background-position-x: 36%;
   background-repeat: no-repeat;
-  background-size: 90%;
+  background-size: 50%;
 }

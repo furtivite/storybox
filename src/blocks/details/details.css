@@ -1,0 +1,18 @@
+@import url(__caption/details__caption.css);
+@import url(__line/details__line.css);
+@import url(__line-caption/details__line-caption.css);
+@import url(__paragraph/details__paragraph.css);
+
+.details {
+  width: 100%;
+  color: #F8E8FF;
+
+  padding-bottom: 164px;
+
+  background: url(../../img/details-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 38%;
+
+  font-family: 'Montserrat', sans-serif;
+}

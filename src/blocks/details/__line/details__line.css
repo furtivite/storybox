@@ -1,6 +1,6 @@
-@import url(_rtl/detailed__line_rtl.css);
+@import url(_rtl/details__line_rtl.css);
 
-.detailed__line {
+.details__line {
   display: flex;
   flex-direction: column;
   align-items: flex-start;

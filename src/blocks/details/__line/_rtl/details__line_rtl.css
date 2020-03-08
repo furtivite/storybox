@@ -1,4 +1,4 @@
-.detailed .detailed__line_rtl {
+.details .details__line_rtl {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
