@@ -1,7 +1,13 @@
 @import url(__caption/beginning__caption.css);
 @import url(__video-block/beginning__video-block.css);
 @import url(__video/beginning__video.css);
+@import url(__man/beginning__man.css);
+@import url(__man-img/beginning__man-img.css);
 
 .beginning {
   width: 100%;
+  background: url(../../img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
 }

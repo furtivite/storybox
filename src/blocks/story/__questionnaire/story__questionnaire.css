@@ -1,0 +1,10 @@
+.story__questionnaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  background: rgb(47, 28, 92, 0.75);
+  border-radius: 20px;
+  padding: 20px;
+}

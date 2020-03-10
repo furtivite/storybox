@@ -1,4 +1,6 @@
 @import url(__caption/story__caption.css);
+@import url(__form/story__form.css);
+@import url(__questionnaire/story__questionnaire.css);
 
 .story {
   display: flex;
