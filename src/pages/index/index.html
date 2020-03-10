@@ -706,6 +706,12 @@
           ВЫ ГОТОВЫ СОЗДАТЬ СВОЮ ИСТОРИЮ?
         </h2>
         <div class="story__questionnaire">
+          <picture>
+            <img
+              src="<%=require('../../img/STORYBOX.png')%>" alt="storybox"
+              srcset="<%=require('../../img/STORYBOX@2x.png')%> 2x, <%=require('../../img/STORYBOX.png')%> 1x"
+              class="story__logo">
+          </picture>
           <form action="" class="story__form">
             <input type="text" name="name" class="story__input story__input_name" placeholder="ФИО" minlength="3" maxlength="30">
             <input type="text" name="mail" class="story__input story__input_mail" placeholder="Email" minlength="3" maxlength="30">
@@ -713,7 +719,7 @@
             <input type="text" name="duration" class="story__input story__input_duration" placeholder="Длительность ролика" minlength="3" maxlength="30">
             <input type="text" name="more" class="story__input story__input_more" placeholder="Опишите подробнее" minlength="3">
             <button class="story__button" type="submit">Отправить</button>
-            <span class="story__error">Ошибка</span>
+            <span class="story__error story__error_hidden">Ошибка</span>
           </form>
           <p class="story__agreement">Нажимая кнопку, вы даёте согласие на обработку <a href="#" class="link link_underline">персональных данных</a></p>
         </div>

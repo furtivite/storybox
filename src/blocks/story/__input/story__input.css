@@ -1,0 +1,18 @@
+@import url(_duration/story__input__duration.css);
+@import url(_link/story__input_link.css);
+@import url(_mail/story__input_mail.css);
+@import url(_more/story__input_more.css);
+@import url(_name/story__input_name.css);
+
+.story__input {
+  width: 100%;
+  max-width: 350px;
+  height: 50px;
+  color: #CF198B;
+  padding: 0px 10px;
+  font-size: 18px;
+  background: #F8E8FF;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
