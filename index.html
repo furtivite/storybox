@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.6e29b4b2a02f8ee0e77a.css?dc259968be8e9e5b0f89">
+  <link rel="stylesheet" href="index.85d928e6f8a8c8d9e8a0.css?02a43b665de1945f4005">
   <title>StoryBox: Открой свою историю</title>
 </head>
 <body class="body">
@@ -20,10 +20,10 @@
       <nav class="header__nav nav">
         <ul class="nav__list">
           <li class="nav__list-item">
-            <a href="#schema" class="link nav__list-item-schema">Схема работы</a>
+            <a href="#scheme" class="link nav__list-item-scheme">Схема работы</a>
           </li>
           <li class="nav__list-item">
-            <a href="#detailed" class="link nav__list-item-detailed">Подробнее</a>
+            <a href="#details" class="link nav__list-item-details">Подробнее</a>
           </li>
           <li class="nav__list-item">
             <a href="#footer" class="link nav__list-item-contacts">Контакты</a>
@@ -49,52 +49,62 @@
       </div>
     </div>
   </header>
-  <main class="body__main main">
+  <main class="body__main main main_ru">
     <div class="main__container container">
       <section class="main__beginning beginning">
         <h1 class="beginning__caption caption caption_h1">ОТКРОЙ СВОЮ ИСТОРИЮ</h1>
-        <div class="beginning__video video video_beginning">
-          <picture>
-            <img
-              src="./img/play-btn.png" alt="play button"
-              srcset="./img/play-btn@2x.png 2x, ./img/play-btn.png 1x"
-              class="video__play video__play_beginning">
-          </picture>
+        <div class="beginning__video-block">
+          <div class="beginning__video video video_beginning">
+            <picture>
+              <img
+                src="./img/play-btn.png" alt="play button"
+                srcset="./img/play-btn@2x.png 2x, ./img/play-btn.png 1x"
+                class="video__play video__play_beginning">
+            </picture>
+          </div>
+          <div class="beginning__man">
+            <picture>
+              <img
+                src="./img/man.png" alt="man"
+                srcset="./img/man@2x.png 2x, ./img/man.png 1x"
+                class="beginning__man-img">
+            </picture>
+          </div>
         </div>
       </section>
-      <section class="main__detailed detailed" id="detailed">
-        <h2 class="detailed__caption caption caption_h2">
+      <section class="main__details details" id="details">
+        <h2 class="details__caption caption caption_h2">
           ПОДРОБНЕЕ
         </h2>
-        <div class="detailed__line">
-          <h3 class="detailed__line-caption detailed__line-caption_effect caption caption_h3">
+        <div class="details__line">
+          <h3 class="details__line-caption details__line-caption_effect caption caption_h3">
             Максимальное воздействие
           </h3>
-          <p class="detailed__paragraph detailed__paragraph_effect paragraph">
+          <p class="details__paragraph details__paragraph_effect paragraph">
             Через анимационное видео информация доходит до зрителя без потерь
           </p>
         </div>
-        <div class="detailed__line detailed__line_rtl">
-          <h3 class="detailed__line-caption detailed__line-caption_attention caption caption_h3">
+        <div class="details__line details__line_rtl">
+          <h3 class="details__line-caption details__line-caption_attention caption caption_h3">
             Сегодня внимание&nbsp;&mdash; завтра клиент
           </h3>
-          <p class="detailed__paragraph detailed__paragraph_attention paragraph">
+          <p class="details__paragraph details__paragraph_attention paragraph">
             Завоевав внимание зрителя сейчас, вы получите постоянного покупателя в будущем
           </p>
         </div>
-        <div class="detailed__line">
-          <h3 class="detailed__line-caption detailed__line-caption_telling caption caption_h3">
+        <div class="details__line">
+          <h3 class="details__line-caption details__line-caption_telling caption caption_h3">
             Хватит продавать&nbsp;&mdash; лучше расскажи
           </h3>
-          <p class="detailed__paragraph detailed__paragraph_telling paragraph">
+          <p class="details__paragraph details__paragraph_telling paragraph">
             Методики продаж не работают! Клиент покупает, когда видит и понимает место вашего товара в своей жизни
           </p>
         </div>
-        <div class="detailed__line detailed__line_rtl">
-          <h3 class="detailed__line-caption detailed__line-caption_story caption caption_h3">
+        <div class="details__line details__line_rtl">
+          <h3 class="details__line-caption details__line-caption_story caption caption_h3">
             Достойная история есть у каждого бренда
           </h3>
-          <p class="detailed__paragraph detailed__paragraph_story paragraph">
+          <p class="details__paragraph details__paragraph_story paragraph">
             Каким бы ни был продукт, сценаристы вместе с вами откроют красивую историю, чтобы достойно донести её до зрителя
           </p>
         </div>
@@ -686,8 +696,30 @@
           <div class="portfolio__swiper-pagination swiper-pagination"></div>
         </div>
       </section>
+      <section class="main__scheme scheme" id="scheme">
+        <h2 class="scheme__caption caption caption_h2">
+          СХЕМА РАБОТЫ
+        </h2>
+      </section>
+      <section class="main__story story">
+        <h2 class="story__caption caption caption_h2 caption_rectangle">
+          ВЫ ГОТОВЫ СОЗДАТЬ СВОЮ ИСТОРИЮ?
+        </h2>
+        <div class="story__questionnaire">
+          <form action="" class="story__form">
+            <input type="text" name="name" class="story__input story__input_name" placeholder="ФИО" minlength="3" maxlength="30">
+            <input type="text" name="mail" class="story__input story__input_mail" placeholder="Email" minlength="3" maxlength="30">
+            <input type="text" name="link" class="story__input story__input_link" placeholder="Ссылка на компанию" minlength="3" maxlength="30">
+            <input type="text" name="duration" class="story__input story__input_duration" placeholder="Длительность ролика" minlength="3" maxlength="30">
+            <input type="text" name="more" class="story__input story__input_more" placeholder="Опишите подробнее" minlength="3">
+            <button class="story__button" type="submit">Отправить</button>
+            <span class="story__error">Ошибка</span>
+          </form>
+          <p class="story__agreement">Нажимая кнопку, вы даёте согласие на обработку <a href="#" class="link link_underline">персональных данных</a></p>
+        </div>
+      </section>
     </div>
   </main>
-  <script src="index.bundle.js?dc259968be8e9e5b0f89"></script>
+  <script src="index.bundle.js?02a43b665de1945f4005"></script>
 </body>
 </html>
