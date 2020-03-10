@@ -1,23 +1,25 @@
 import './en.css';
-/* выбор меню */
+
+/* языковое меню */
 import {
-  langMenuEN
-} from '../../modules/langmenu';
+  englishMenu
+} from '../../modules/englishMenu';
+
 /* свайпер */
 import {
   slider
 } from '../../modules/slider';
-
-/* меню смены языка */
-function createLangMenu () {
-  const langEN = document.querySelector('.lang-place__selected_en');
-  langEN.addEventListener("click", langMenuEN);
-}
 
 /* функция для проверки листенеров */
 function click () {
   console.log('click');
 }
 
-createLangMenu ();
+/* меню смены языка */
+function langMenu () {
+  const header = document.querySelector('.header');
+  header.addEventListener("click", englishMenu);
+}
+
+langMenu ();
 slider ();
