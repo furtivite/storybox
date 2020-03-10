@@ -3,3 +3,12 @@
 @import url(__contacts/footer__contacts.css);
 @import url(__politics/footer__politics.css);
 @import url(__paragraph/footer__paragraph.css);
+@import url(__line/footer__line.css);
+
+.footer {
+  width: 100%;
+  padding: 10px 0px;
+  background: #E2BFD6;
+  color: #CD55A0;
+  font-family: 'Montserrat', sans-serif;
+}
