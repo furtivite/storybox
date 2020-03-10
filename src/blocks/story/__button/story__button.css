@@ -1,0 +1,17 @@
+.story__button {
+  width: 228px;
+  height: 50px;
+  background: #ED148C;
+  color: #F8E8FF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: none;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

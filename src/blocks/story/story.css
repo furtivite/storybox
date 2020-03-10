@@ -3,6 +3,7 @@
 @import url(__form/story__form.css);
 @import url(__questionnaire/story__questionnaire.css);
 @import url(__input/story__input.css);
+@import url(__button/story__button.css);
 @import url(__agreement/story__agreement.css);
 @import url(__error/story__error.css);
 
