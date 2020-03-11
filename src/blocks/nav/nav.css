@@ -4,3 +4,9 @@
 .nav {
   width: 56%;
 }
+
+@media (max-width: 1440px) {
+  .nav {
+    width: 75%;
+  }
+}

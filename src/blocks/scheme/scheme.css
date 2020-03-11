@@ -3,3 +3,9 @@
 .scheme {
   height: 780px;
 }
+
+@media (max-width: 1440px) {
+  .scheme {
+    height: 590px;
+  }
+}
