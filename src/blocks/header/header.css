@@ -12,3 +12,9 @@
   line-height: 27px;
   font-weight: 300;
 }
+
+@media (max-width: 1024px) {
+  .header {
+    font-size: 20px;
+  }
+}

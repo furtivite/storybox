@@ -3,3 +3,9 @@
   top: 62px;
   right: 156px;
 }
+
+@media (max-width: 1024px) {
+  .header__lang-place {
+    right: 24px;
+  }
+}
