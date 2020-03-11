@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.85d928e6f8a8c8d9e8a0.css?02a43b665de1945f4005">
+  <link rel="stylesheet" href="index.6a37fe5d889e201e4afa.css?c6e269ede0a25ec74e8a">
   <title>StoryBox: Открой свою историю</title>
 </head>
 <body class="body">
@@ -706,6 +706,12 @@
           ВЫ ГОТОВЫ СОЗДАТЬ СВОЮ ИСТОРИЮ?
         </h2>
         <div class="story__questionnaire">
+          <picture>
+            <img
+              src="./img/STORYBOX.png" alt="storybox"
+              srcset="./img/STORYBOX@2x.png 2x, ./img/STORYBOX.png 1x"
+              class="story__logo">
+          </picture>
           <form action="" class="story__form">
             <input type="text" name="name" class="story__input story__input_name" placeholder="ФИО" minlength="3" maxlength="30">
             <input type="text" name="mail" class="story__input story__input_mail" placeholder="Email" minlength="3" maxlength="30">
@@ -713,13 +719,97 @@
             <input type="text" name="duration" class="story__input story__input_duration" placeholder="Длительность ролика" minlength="3" maxlength="30">
             <input type="text" name="more" class="story__input story__input_more" placeholder="Опишите подробнее" minlength="3">
             <button class="story__button" type="submit">Отправить</button>
-            <span class="story__error">Ошибка</span>
+            <span class="story__error story__error_hidden">Ошибка</span>
           </form>
           <p class="story__agreement">Нажимая кнопку, вы даёте согласие на обработку <a href="#" class="link link_underline">персональных данных</a></p>
         </div>
       </section>
     </div>
   </main>
-  <script src="index.bundle.js?02a43b665de1945f4005"></script>
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__line">
+        <div class="footer__social-icons">
+          <a href="#" class="link footer__link">
+            <picture>
+              <img
+                src="./img/telegram.png" alt="telegram"
+                srcset="./img/telegram@2x.png 2x, ./img/telegram.png 1x"
+                class="footer__social-img">
+            </picture>
+          </a>
+          <a href="#" class="link footer__link">
+            <picture>
+              <img
+                src="./img/whatsapp.png" alt="whatsapp"
+                srcset="./img/whatsapp@2x.png 2x, ./img/whatsapp.png 1x"
+                class="footer__social-img">
+            </picture>
+          </a>
+          <a href="#" class="link footer__link">
+            <picture>
+              <img
+                src="./img/viber.png" alt="viber"
+                srcset="./img/viber@2x.png 2x, ./img/viber.png 1x"
+                class="footer__social-img">
+            </picture>
+          </a>
+          <a href="#" class="link footer__link">
+            <picture>
+              <img
+                src="./img/youtube.png" alt="youtube"
+                srcset="./img/youtube@2x.png 2x, ./img/youtube.png 1x"
+                class="footer__social-img">
+            </picture>
+          </a>
+          <a href="#" class="link footer__link">
+            <picture>
+              <img
+                src="./img/instagram.png" alt="instagram"
+                srcset="./img/instagram@2x.png 2x, ./img/instagram.png 1x"
+                class="footer__social-img">
+            </picture>
+          </a>
+        </div>
+      </div>
+      <div class="footer__line">
+        <div class="footer__contacts">
+          <div class="footer__contacts-item">
+            <picture>
+              <img src="./img/skype.png" alt="skype"
+                srcset="./img/skype@2x.png 2x, ./img/skype.png 1x"
+                class="footer__contacts-img">
+              </picture>
+              <span class="footer__contancts-text">storyboxgroup</span>
+          </div>
+          <div class="footer__contacts-item">
+            <picture>
+              <img src="./img/mail.png" alt="mail"
+                srcset="./img/mail@2x.png 2x, ./img/mail.png 1x"
+                class="footer__contacts-img">
+              </picture>
+              <a href="mailto:info@storybox.studio" class="footer__contacts-text link">info@storybox.studio</a>
+          </div>
+          <div class="footer__contacts-item">
+            <picture>
+              <img src="./img/phone.png" alt="phone"
+                srcset="./img/phone@2x.png 2x, ./img/phone.png 1x"
+                class="footer__contacts-img">
+              </picture>
+              <a href="tel:+79053059027" class="footer__contacts-text link">+7&nbsp;905&nbsp;305&nbsp;90&nbsp;27</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__line">
+        <p class="footer__paragraph">
+          Политика конфиденциальности
+        </p>
+        <p class="footer__paragraph">
+          &copy;&nbsp;2020&nbsp;Storybox
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="index.bundle.js?c6e269ede0a25ec74e8a"></script>
 </body>
 </html>
