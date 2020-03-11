@@ -1,6 +1,9 @@
 @import url(_beginning/video_beginning.css);
 @import url(_swiper/video_swiper.css);
 @import url(__play/video__play.css);
+@import url(__title-line/video__title-line.css);
+@import url(__client-word/video__client-word.css);
+@import url(__client-name/video__client-name.css);
 @import url(__title/video__title.css);
 @import url(__project/video__project.css);
 @import url(__name/video__name.css);

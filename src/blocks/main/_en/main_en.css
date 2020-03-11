@@ -3,3 +3,9 @@
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+
+@media (max-width: 1024px) {
+  .main_en {
+    background-size: 200%;
+  }
+}

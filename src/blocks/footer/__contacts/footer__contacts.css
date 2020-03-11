@@ -5,3 +5,9 @@
   justify-content: space-around;
   align-items: center;
 }
+
+@media (max-width: 1024px) {
+  .footer__contacts {
+    width: 70%;
+  }
+}
