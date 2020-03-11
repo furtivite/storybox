@@ -1,0 +1,17 @@
+@import url(__container/cookies__container.css);
+@import url(__text/cookies__text.css);
+@import url(__buttons-place/cookies__buttons-place.css);
+@import url(__button/cookies__button.css);
+@import url(_hidden/cookies_hidden.css);
+
+.cookies {
+  width: 100%;
+  padding: 10px 0px 20px;
+
+  background: rgb(127, 47, 127, 0.7);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+  position: fixed;
+  bottom: 0px;
+}

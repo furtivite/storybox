@@ -1,0 +1,7 @@
+.cookies__buttons-place {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

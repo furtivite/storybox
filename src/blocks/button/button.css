@@ -1,0 +1,19 @@
+@import url(_CD55A0/button_CD55A0.css);
+@import url(_FBAB18/button_FBAB18.css);
+
+.button {
+  width: auto;
+  height: 50px;
+  background: #ED148C;
+  color: #F8E8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}

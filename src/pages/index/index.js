@@ -10,6 +10,11 @@ import {
   slider
 } from '../../modules/slider';
 
+/* уведомление о cookies */
+import {
+  cookies
+} from '../../modules/cookies';
+
 /* функция для проверки листенеров */
 function click () {
   console.log('click');
@@ -23,3 +28,4 @@ function langMenu () {
 
 langMenu ();
 slider ();
+cookies ();
