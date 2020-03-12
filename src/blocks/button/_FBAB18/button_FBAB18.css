@@ -1,3 +1,8 @@
 .button.button_FBAB18 {
   background: #FBAB18;
 }
+
+.button.button_FBAB18:hover {
+  background: #F8E8FF;
+  color: #FBAB18;
+}

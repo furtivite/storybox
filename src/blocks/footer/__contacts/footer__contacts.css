@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
   .footer__contacts {
     width: 70%;
   }

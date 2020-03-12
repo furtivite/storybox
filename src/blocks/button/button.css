@@ -17,3 +17,8 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
+.button:hover {
+  background: #F8E8FF;
+  color: #ED148C;
+}
