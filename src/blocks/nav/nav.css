@@ -2,7 +2,7 @@
 @import url(__list-item/nav__list-item.css);
 
 .nav {
-  width: 56%;
+  width: 75%;
 }
 
 @media (max-width: 1440px) {

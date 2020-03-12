@@ -1,19 +1,28 @@
 .container {
   /*width: 100%;*/
-  width: calc(100% - 288px);
+  width: calc(75% - 288px);
   max-width: 1920px;
   height: 100%;
 
   padding-left: 144px;
   padding-right: 144px;
 
+  margin: 0 auto;
   position: relative;
 }
 
 @media (max-width: 1024px) {
   .container {
-    width: calc(100% - 40px);
+    width: calc(75% - 40px);
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: calc(100% - 20px);
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
