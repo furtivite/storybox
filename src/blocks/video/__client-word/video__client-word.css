@@ -1,7 +1,18 @@
 .video__client-word {
+  display: none;
+}
+
+.video:hover .video__client-word {
+  display: inline;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
+}
+
+@media (max-width: 768px) {
+  .video__client-word {
+    display: inline;
+  }
 }
