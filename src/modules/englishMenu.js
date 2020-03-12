@@ -39,7 +39,7 @@ function openMenuRU () {
   /* стрелка на первом пункте */
   createImg.classList.add('lang-place__arow');
   createImg.classList.add('lang-place__arow_rotate');
-  createImg.src = "../img/arrow-down.png";
+  createImg.src = "./img/arrow-down.png";
   createLi.appendChild(createImg);
 
   /* ссылка с неактивным языком */

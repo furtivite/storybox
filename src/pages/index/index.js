@@ -10,11 +10,17 @@ import {
   slider
 } from '../../modules/slider';
 
+/* функция отключения стрелок свайпера */
+import {
+  swiperArrows
+} from '../../modules/swiperArrows';
+
 /* уведомление о cookies */
 import {
   cookies
 } from '../../modules/cookies';
 
+/* локальные фукнции */
 /* функция для проверки листенеров */
 function click () {
   console.log('click');
@@ -28,4 +34,5 @@ function langMenu () {
 
 langMenu ();
 slider ();
+swiperArrows ();
 cookies ();

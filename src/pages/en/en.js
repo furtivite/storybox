@@ -1,26 +1,19 @@
-import './en.css';
+/* все пояснения даны в версии файла для русского языка */
 
-/* языковое меню */
+import './en.css';
 import {
   englishMenu
 } from '../../modules/englishMenu';
-
-/* свайпер */
 import {
   slider
 } from '../../modules/slider';
-
-/* уведомление о cookies */
+import {
+  swiperArrows
+} from '../../modules/swiperArrows';
 import {
   cookies
 } from '../../modules/cookies';
 
-/* функция для проверки листенеров */
-function click () {
-  console.log('click');
-}
-
-/* меню смены языка */
 function langMenu () {
   const header = document.querySelector('.header');
   header.addEventListener("click", englishMenu);
@@ -28,4 +21,5 @@ function langMenu () {
 
 langMenu ();
 slider ();
+swiperArrows ();
 cookies ();
