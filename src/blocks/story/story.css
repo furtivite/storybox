@@ -17,3 +17,9 @@
 
   padding-bottom: 50px;
 }
+
+@media (max-width: 425px) {
+  .story {
+    display: none;
+  }
+}

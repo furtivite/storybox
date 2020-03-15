@@ -17,3 +17,9 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
+
+@media (max-width: 425px) {
+  .footer {
+    display: none;
+  }
+}

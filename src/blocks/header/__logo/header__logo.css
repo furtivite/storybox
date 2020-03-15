@@ -4,6 +4,12 @@
   left: 156px;
 }
 
+@media (max-width: 1440px) {
+  .header__logo {
+    left: 42px;
+  }
+}
+
 @media (max-width: 1024px) {
   .header__logo {
     left: 24px;

@@ -1,1 +1,7 @@
 @import url(_rotate/lang-place__arow_rotate.css);
+
+@media (max-width: 768px) {
+  .lang-place__arow {
+    width: 12px;
+  }
+}

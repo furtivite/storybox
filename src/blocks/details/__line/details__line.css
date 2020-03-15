@@ -6,3 +6,17 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
+@media (max-width: 1440px) {
+  .details__line {
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .details__line {
+    min-height: 125px;
+  }
+}
+
+

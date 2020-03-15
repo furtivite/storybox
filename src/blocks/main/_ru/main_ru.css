@@ -9,3 +9,9 @@
     background-size: 200%;
   }
 }
+
+@media (max-width: 425px) {
+  .main_ru {
+    background: none;
+  }
+}

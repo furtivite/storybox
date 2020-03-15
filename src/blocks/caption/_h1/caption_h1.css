@@ -8,3 +8,9 @@
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
+
+@media (max-width: 768px) {
+  .caption_h1 {
+    font-size: 36px;
+  }
+}

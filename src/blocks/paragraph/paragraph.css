@@ -8,3 +8,10 @@
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
+
+@media (max-width: 768px) {
+  .paragraph {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

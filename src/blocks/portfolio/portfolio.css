@@ -14,3 +14,9 @@
   color: #F8E8FF;
   padding-bottom: 58px;
 }
+
+@media (max-width: 425px) {
+  .portfolio {
+    display: none;
+  }
+}

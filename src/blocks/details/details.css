@@ -16,3 +16,15 @@
 
   font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width: 1440px) {
+  .details {
+    background-size: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .details {
+    display: none;
+  }
+}

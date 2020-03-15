@@ -1,3 +1,9 @@
 .details__paragraph {
   width: 33%;
 }
+
+@media (max-width: 1440px) {
+  .details__paragraph {
+    width: 50%;
+  }
+}

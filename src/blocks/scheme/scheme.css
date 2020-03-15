@@ -15,3 +15,9 @@
     height: 410px;
   }
 }
+
+@media (max-width: 425px) {
+  .scheme {
+    display: none;
+  }
+}

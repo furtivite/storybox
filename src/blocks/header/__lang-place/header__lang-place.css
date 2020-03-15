@@ -4,8 +4,24 @@
   right: 156px;
 }
 
+@media (max-width: 1440px) {
+  .header__lang-place {
+    position: absolute;
+    right: 42px;
+  }
+}
+
 @media (max-width: 1024px) {
   .header__lang-place {
+    position: absolute;
+    top: 42px;
     right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__lang-place {
+    position: absolute;
+    top: 22px;
   }
 }

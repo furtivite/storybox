@@ -11,13 +11,30 @@
   position: relative;
 }
 
+@media (max-width: 1440px) {
+  .container {
+    /* width: 100%; */
+    width: calc(75% - 90px);
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
 @media (max-width: 1024px) {
   .container {
-    width: calc(75% - 40px);
+    width: calc(90% - 40px);
     padding-left: 20px;
     padding-right: 20px;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+}
+
+
 
 @media (max-width: 425px) {
   .container {

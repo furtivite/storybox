@@ -11,3 +11,10 @@
   background-size: contain;
   background-position: bottom center;
 }
+
+@media (max-width: 425px) {
+  .beginning {
+    display: none;
+  }
+}
+
